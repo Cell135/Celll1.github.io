@@ -1,7 +1,6 @@
 const http = require('http');
 var port = process.env.PORT || 3001;
 const fs = require('fs');   //fs: file system
-app.listen(port);
 
 const server = http.createServer((req, res) => {
    switch(req.url) {
